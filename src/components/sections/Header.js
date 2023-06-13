@@ -12,7 +12,7 @@ const Header = () => {
       <div className={`${styles.headerContainer} container`}>
         <div className="logo">
           <NavLink to={'/'}>
-            <img src="./img/svg/logo.svg" alt="Logo" />
+            <img src={process.env.PUBLIC_URL + "./img/svg/logo.svg"} alt="Logo" />
           </NavLink>
         </div>
         <Navigation />
