@@ -1,0 +1,91 @@
+@import '../../vars.scss';
+
+.off {
+  background-color: #f1f1f1;
+}
+
+.offContainer {
+  padding: 3.3rem 3rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.offTitle {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  color: #333333;
+}
+
+.offSubtitle {
+  font-weight: 500;
+  font-size: 2.6rem;
+  line-height: 4rem;
+  color: #333333;
+}
+
+.offCards {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.offCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: $white;
+  padding: 32px 50px;
+  max-width: 280px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+
+  img {
+    margin-bottom: 5px;
+  }
+}
+
+.offCardTitle {
+  padding: 0 6px;
+}
+
+.cardStars {
+  display: flex;
+  justify-content: center;
+}
+
+.cardPrice {
+  font-weight: 200;
+  font-size: 0.8rem;
+  line-height: 1.1rem;
+  text-align: center;
+  color: #333333;
+  margin-top: 5px;
+
+  span {
+    font-weight: 500;
+  }
+}
+
+.cardButton {
+  display: flex;
+  align-items: center;
+  
+  background-color: $main-color;
+  font-size: .75rem;
+  line-height: 1.1rem;
+  color: $white;
+  border: none;
+  transition: background-color .5s ease;
+  margin-top: 15px;
+
+  svg {
+    margin-top: 1px;
+    margin-right: 4px;
+  }
+
+  &:hover{
+    background-color: #333333;    
+  }
+}
+

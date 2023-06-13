@@ -1,0 +1,21 @@
+@import '../vars';
+
+.headerSearch {
+  display: flex;
+  align-items: center;
+  padding: 10px 40px;
+  border: 1px solid $main-color;
+  border-radius: 50px;
+}
+
+.searchInput {
+  min-width: 150px;
+  margin-left: 10px;
+  font-size: .6rem;
+  line-height: 0.9rem;
+  color: #787878;
+}
+
+.searchInput::placeholder {
+  text-transform: uppercase;
+}

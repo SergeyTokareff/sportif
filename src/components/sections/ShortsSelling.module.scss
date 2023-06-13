@@ -1,0 +1,50 @@
+.shortsSellingText,
+.shortsSellingImg {
+  width: 50%;
+}
+
+.shortsSellingText {
+  padding: 8.6rem 4.5rem 10.7rem 0;
+
+}
+
+.shortsSellingTitle {
+  
+  color: #001f3d;
+}
+
+.shortsSellingSubtitle {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.37rem;
+  padding: 10px 0 30px;
+}
+
+.shortsSellingImg {
+  position: relative;
+}
+
+.shortsSellingBox {
+  width: 21.5rem;
+  height: 19.3rem;
+  position: absolute;
+}
+
+.transparentBox {
+  border: 1px solid #a04955;
+  top: 226px;
+  right: 140px;
+}
+
+.redBox {
+  background: #a04955;
+  top: 70px;
+  right: 0;
+}
+
+.shortsSellingPic {
+  position: absolute;
+  top: 105px;
+  right: 100px;
+}

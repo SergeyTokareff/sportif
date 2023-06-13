@@ -1,0 +1,22 @@
+@import '../../vars.scss';
+
+.btn {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.37rem;
+  text-align: center;
+  color: $black;
+  text-transform: uppercase;
+  padding: 8px 12px;
+  border: 1px solid $black;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all .5s ease;
+
+  &:hover {
+    background-color: $main-color;
+    color: $white;
+    border-color: transparent;
+  }
+}

@@ -1,0 +1,36 @@
+@import '../../index.scss';
+
+.originalPantContainer {
+  flex-direction: column;
+  padding: 1.6rem 6.3rem;
+  background: url('./../../../public/img/bg-original-pant.jpg') no-repeat;
+}
+
+.originalPantTitle, 
+.originalPantText {
+  max-width: 500px;
+}
+
+.originalPantTitle {
+  color: $white;
+}
+
+.originalPantText {
+  font-family: 'Open sans', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.37rem;
+  color: $white;
+  padding: .8rem 0 1.2rem;
+}
+
+.originalPantBtn {
+  background-color: $main-color;
+  border: none;
+  color: $white;
+  max-width: 405px;
+
+  &:hover{
+    background-color: #333333;    
+  }
+}

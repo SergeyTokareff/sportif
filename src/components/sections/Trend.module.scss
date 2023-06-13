@@ -1,0 +1,46 @@
+@import '../../vars.scss';
+
+.trend {
+  margin-top: 90px;
+}
+
+.trendContainer {
+   flex-direction: column;
+   height: 340px;
+   background-color: $main-color;
+   padding: 1.2rem 2.5rem;
+}
+
+.trendTitle {
+  color: $white;
+  text-align: center;
+}
+
+.trendCards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.trendCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $white;
+  padding: 15px 36px 45px;
+  border: 1px solid $main-color;
+  width: 23.786%;
+}
+
+.trendBtn {
+  font-size: .75rem;
+  line-height: 1rem;
+  color: $white;
+  background-color: $main-color;
+  border: none;
+  transition: background-color .5s ease;
+
+  &:hover {
+    background-color: #333333;
+  }
+}

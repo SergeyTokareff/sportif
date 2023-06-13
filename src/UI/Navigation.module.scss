@@ -1,0 +1,27 @@
+@import '../vars';
+
+.navList {
+  display: flex;
+}
+
+.nav {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+.navItem {
+  margin-right: 1.9rem;
+}
+
+.navLink {
+  font-size: 0.8rem;
+  color: $main-font;
+  margin-right: 1.9rem;
+  text-transform: uppercase;
+  transition: color 0.5s ease;
+
+  &:hover {
+    color: $main-color;
+  }
+}

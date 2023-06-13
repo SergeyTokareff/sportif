@@ -1,0 +1,12 @@
+@import '../vars';
+
+.scrollToTop {
+  background-color: $main-color;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  color: $white;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+}

@@ -1,0 +1,27 @@
+@import './../../vars.scss';
+
+.sellingPantsContainer {
+  padding: 3.8rem 2.5rem;
+}
+
+.sellingPantsImg,
+.sellingPantsText {
+  width: 50%;
+}
+
+.sellingPantsText {
+  padding: 50px 20px 50px 60px;
+}
+
+.sellingPantsTitle {
+  color: #001f3d;
+}
+
+.sellingPantsSubtitle {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  color: $black;
+  padding: 10px 0 30px;
+}
