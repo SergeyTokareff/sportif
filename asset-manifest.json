@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/sportif/static/css/main.a37fa26f.css",
-    "main.js": "/sportif/static/js/main.782c8032.js",
+    "main.js": "/sportif/static/js/main.2ded5bcf.js",
     "static/media/bg-original-pant.jpg": "/sportif/static/media/bg-original-pant.c410384e77e8b8b7073a.jpg",
     "static/media/cart-icon.svg": "/sportif/static/media/cart-icon.58daa0bdba0ddd089b9b1d9498cb6cff.svg",
     "index.html": "/sportif/index.html",
     "main.a37fa26f.css.map": "/sportif/static/css/main.a37fa26f.css.map",
-    "main.782c8032.js.map": "/sportif/static/js/main.782c8032.js.map"
+    "main.2ded5bcf.js.map": "/sportif/static/js/main.2ded5bcf.js.map"
   },
   "entrypoints": [
     "static/css/main.a37fa26f.css",
-    "static/js/main.782c8032.js"
+    "static/js/main.2ded5bcf.js"
   ]
 }
