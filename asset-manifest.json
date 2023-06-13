@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "./static/css/main.a45f793b.css",
-    "main.js": "./static/js/main.1e83e48b.js",
-    "static/media/bg-original-pant.jpg": "./static/media/bg-original-pant.c410384e77e8b8b7073a.jpg",
-    "static/media/cart-icon.svg": "./static/media/cart-icon.58daa0bdba0ddd089b9b1d9498cb6cff.svg",
-    "index.html": "./index.html",
-    "main.a45f793b.css.map": "./static/css/main.a45f793b.css.map",
-    "main.1e83e48b.js.map": "./static/js/main.1e83e48b.js.map"
+    "main.css": "/sportif/static/css/main.a37fa26f.css",
+    "main.js": "/sportif/static/js/main.1fac4fee.js",
+    "static/media/bg-original-pant.jpg": "/sportif/static/media/bg-original-pant.c410384e77e8b8b7073a.jpg",
+    "static/media/cart-icon.svg": "/sportif/static/media/cart-icon.58daa0bdba0ddd089b9b1d9498cb6cff.svg",
+    "index.html": "/sportif/index.html",
+    "main.a37fa26f.css.map": "/sportif/static/css/main.a37fa26f.css.map",
+    "main.1fac4fee.js.map": "/sportif/static/js/main.1fac4fee.js.map"
   },
   "entrypoints": [
-    "static/css/main.a45f793b.css",
-    "static/js/main.1e83e48b.js"
+    "static/css/main.a37fa26f.css",
+    "static/js/main.1fac4fee.js"
   ]
 }
