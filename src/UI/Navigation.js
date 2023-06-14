@@ -17,7 +17,7 @@ const Navigation = () => {
         Accessories
       </NavLink>
       <NavLink className={styles.navLink} to="sale">
-        Sales
+        Sale
       </NavLink>
     </nav>
   );
