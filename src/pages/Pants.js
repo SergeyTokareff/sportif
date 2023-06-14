@@ -1,7 +1,7 @@
-import { useContext } from 'react';
+// import { useContext } from 'react';
 import CardProduct from '../components/CardProduct';
 
-import { MyContext } from '../context/MyContext';
+// import { MyContext } from '../context/MyContext';
 
 const Pants = () => {
   return (

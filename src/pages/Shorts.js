@@ -1,11 +1,11 @@
-import { useContext } from 'react';
+// import { useContext } from 'react';
 import { FaHome } from 'react-icons/fa';
 import { NavLink } from 'react-router-dom';
 
-import SearchProduct from '../UI/SearchProduct';
+// import SearchProduct from '../UI/SearchProduct';
 import CardProduct from '../components/CardProduct';
 
-import { MyContext } from '../context/MyContext';
+// import { MyContext } from '../context/MyContext';
 
 const Shorts = () => {
   // const filteredProducts = useContext(MyContext);
