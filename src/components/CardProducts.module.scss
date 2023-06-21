@@ -1,3 +1,7 @@
 .cardProducts {
-  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 20px;
+  width: 75%;
 }

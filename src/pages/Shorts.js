@@ -1,21 +1,25 @@
 import SearchProduct from '../UI/SearchProduct';
 import CardProducts from '../components/CardProducts';
 import Breadcrumbs from '../UI/Breadcrumbs';
+import FilterSidebar from '../components/FilterSidebar';
 
 import '../index.scss';
 
-const Shorts = ({  searchFiltered }) => {
+
+const Shorts = ({ searchFiltered }) => {
   return (
     <main>
-      <div className="topPage">
-        <Breadcrumbs />
-        <SearchProduct category="short" searchFiltered={searchFiltered} />
-      </div>
+      <section className="container categoryContainer">
+        <div className="topPage">
+          <Breadcrumbs />
+          <SearchProduct />
+        </div>
 
-      <div className="products">
-        <aside className="productFilters">fff</aside>
-        <CardProducts category="short" />
-      </div>
+        <div className="products">
+          <FilterSidebar />
+          <CardProducts category="short" />
+        </div>
+      </section>
     </main>
   );
 };
