@@ -1,12 +1,18 @@
 // import { useContext } from 'react';
-import CardProduct from '../components/CardProduct';
+import CardProducts from '../components/CardProducts';
+import Breadcrumbs from '../UI/Breadcrumbs';
+import SearchProduct from '../UI/SearchProduct';
 
 // import { MyContext } from '../context/MyContext';
 
 const Pants = () => {
   return (
     <main>
-      <CardProduct category="pants"/>
+      <div className="topPage">
+        <Breadcrumbs />
+        <SearchProduct />
+      </div>
+      <CardProducts category="pants" />
     </main>
   );
 };

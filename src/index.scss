@@ -129,3 +129,18 @@ h6 {
   text-align: center;
   color: #333333;
 }
+
+.topPage {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 60px;
+}
+
+.products {
+  display: flex;
+}
+
+.productFilters {
+  width: 20%;
+
+}

@@ -1,0 +1,29 @@
+@import '../vars.scss';
+
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: $black;
+  width: 20%;
+  max-width: 315px;
+  margin-right: 12px;
+}
+
+.breadcrumbsIcon {
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumbsArrow {
+  margin: 0 20px;
+}
+
+.breadCrumbsText {
+  display: flex;
+  align-items: center;
+  color: $black;
+}

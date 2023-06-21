@@ -4,8 +4,9 @@ import fetchData from '../API/fetchData';
 
 export const MyContext = createContext();
 
-const MyContextProvider = (props) => {
+const MyContextProvider = ({ children }) => {
   const [products, setProducts] = useState([]);
+  const [searchQuery, setSearchQuery] = useState('');
 
   useEffect(() => {
     fetchData()
@@ -14,13 +15,32 @@ const MyContextProvider = (props) => {
   }, []);
 
   const filteredProducts = (param) => {
-    const filtered = products.filter((product) => product.title === param);
+    const filtered = filteredItems.filter((product) => product.title === param);
     return filtered;
   };
 
+  const inputChangeHandler = (e) => {
+    const inputValue = e.target.value;
+    setSearchQuery(inputValue);
+  };
+
+  const filteredItems = searchQuery
+    ? products.filter((product) =>
+        product.description.toLowerCase().includes(searchQuery.toLowerCase())
+      )
+    : products;
+
+
   return (
-    <MyContext.Provider value={{ filteredProducts }}>
-      {props.children}
+    <MyContext.Provider
+      value={{
+        filteredProducts,
+        filteredItems,
+        inputChangeHandler,
+        searchQuery
+      }}
+    >
+      {children}
     </MyContext.Provider>
   );
 };

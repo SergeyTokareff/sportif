@@ -1,31 +1,20 @@
-// import { useContext } from 'react';
-import { FaHome } from 'react-icons/fa';
-import { NavLink } from 'react-router-dom';
+import SearchProduct from '../UI/SearchProduct';
+import CardProducts from '../components/CardProducts';
+import Breadcrumbs from '../UI/Breadcrumbs';
 
-// import SearchProduct from '../UI/SearchProduct';
-import CardProduct from '../components/CardProduct';
+import '../index.scss';
 
-// import { MyContext } from '../context/MyContext';
-
-const Shorts = () => {
-  // const filteredProducts = useContext(MyContext);
-
-  // const products = filteredProducts('short');
-  // console.log(products);
-
+const Shorts = ({  searchFiltered }) => {
   return (
     <main>
-      <div className="top">
-        <div className="breadcrumbs">
-           <NavLink to="/"><FaHome />Home</NavLink>{">"}
-           Shorts
-        </div>
-        {/* <SearchProduct/> */}
-        
+      <div className="topPage">
+        <Breadcrumbs />
+        <SearchProduct category="short" searchFiltered={searchFiltered} />
       </div>
 
-      <div>
-        <CardProduct category="short" />
+      <div className="products">
+        <aside className="productFilters">fff</aside>
+        <CardProducts category="short" />
       </div>
     </main>
   );

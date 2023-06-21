@@ -2,16 +2,16 @@ import { useContext } from 'react';
 
 import { MyContext } from '../context/MyContext';
 
-import styles from './CardProduct.module.scss';
+import styles from './CardProducts.module.scss';
 
-const CardProduct = ({ category }) => {
+const CardProducts = ({category}) => {
   const { filteredProducts } = useContext(MyContext);
-
-  const products = filteredProducts(category);
+  const searchFiltered = filteredProducts(category);
+  
 
   return (
-    <>
-      {products.map((product, index) => (
+    <div className={styles.cardProducts}>
+      {searchFiltered.map((product, index) => (
         <div key={index}>
           <div className={styles.wrapperImg}>
             <img src={product.image} alt={product.image} />
@@ -23,8 +23,8 @@ const CardProduct = ({ category }) => {
           <button></button>
         </div>
       ))}
-    </>
+    </div>
   );
 };
 
-export default CardProduct;
+export default CardProducts;
