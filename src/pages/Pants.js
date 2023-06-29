@@ -1,7 +1,6 @@
 import CardProducts from '../components/CardProducts';
 import Breadcrumbs from '../UI/Breadcrumbs';
 import SearchProduct from '../UI/SearchProduct';
-import FilterSidebar from '../components/FilterSidebar';
 
 import '../index.scss';
 
@@ -14,7 +13,6 @@ const Pants = () => {
           <SearchProduct />
         </div>
         <div className='products'>
-          <FilterSidebar />
           <CardProducts category="pants" />
         </div>
       </section>

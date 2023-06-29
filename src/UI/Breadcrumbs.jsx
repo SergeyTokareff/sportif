@@ -1,3 +1,4 @@
+import {AiOutlineHome} from 'react-icons/ai'
 import { NavLink } from 'react-router-dom';
 
 import styles from './Breadcrumbs.module.scss';
@@ -10,11 +11,7 @@ const Breadcrumbs = () => {
   return (
     <div className={styles.breadcrumbs}>
       <NavLink to="/" className={styles.breadCrumbsText}>
-        <img
-          src="./img/svg/home.svg"
-          className={styles.breadcrumbsIcon}
-          alt="Home"
-        />
+        <AiOutlineHome className={styles.breadcrumbsIcon}/>
         Home
       </NavLink>
       <img

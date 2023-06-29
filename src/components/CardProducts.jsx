@@ -12,7 +12,7 @@ const CardProducts = ({ category }) => {
   return (
     <div className={styles.cardProducts}>
       {searchFiltered.map((product, index) => (
-        <Card product={product} index={index} />
+        <Card product={product} key={index} />
       ))}
     </div>
   );

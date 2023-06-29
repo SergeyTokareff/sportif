@@ -1,7 +1,7 @@
 import '../index.scss';
 
-const Button = ({ className, children }) => {
-  return <button className={className}>{children}</button>;
+const Button = ({ onClick, className, children }) => {
+  return <button onClick={onClick} className={className}>{children}</button>;
 };
 
 export default Button;

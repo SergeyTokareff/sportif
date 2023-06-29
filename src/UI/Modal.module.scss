@@ -1,0 +1,97 @@
+@import '../vars.scss';
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+}
+
+.modalContent {
+  position: relative;
+  background-color: $white;
+  padding: 3rem 4.8rem;
+  max-width: 1440px;
+  width: 80vw;
+  height: 80vh;
+  display: flex;
+}
+
+.modalCloseBtn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.modalImg,
+.modalText {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.modalImg {
+  justify-content: center;
+}
+
+.modalWrapperImg {
+  width: 100%;
+  height: 460px;
+  display: flex;
+  align-items: center;
+
+  & img {
+    width: 100%;
+  }
+}
+
+.modalText {
+  padding: 4rem 0 4rem 2rem;
+  justify-content: space-around;
+}
+
+.modalTitle {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.modalPrice {
+  font-size: 0.8rem;
+
+  & span {
+    font-weight: 600;
+    font-size: 1.6rem;
+  }
+}
+
+.modalLabel {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  margin-bottom:8px;
+}
+
+.modalColors {
+  width: 30px;
+  height: 30px;
+  justify-content: flex-start;
+}
+
+.modalSizes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 46px;
+  height: 28px;
+}
+
+.modalButton {
+  max-width: 315px;
+  width: auto;
+  justify-content: center;
+}
